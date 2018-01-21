@@ -3,6 +3,7 @@ import {
   StyleSheet,
   Text,
   View,
+  Image,
   Button,
   TouchableOpacity,
   TextInput,
@@ -90,8 +91,12 @@ export default class MainFeed extends Component<{}>{
     }
     return (
       <View>
-        <Text>More to come on this page (lol)</Text>
-        <Button onPress={this.goToCouncil}title="See my council"/>
+        <Image
+          style={{width: 400, height: 1200}}
+          source={{uri: 'https://user-images.githubusercontent.com/18129905/35191650-63f2aabe-fe4e-11e7-847d-4cfb95aa7618.png'}}
+        />
+        <Text>This page is in the process of being updated to include current, prevalent videos and articles based on your personal demographics and interests.</Text>
+        <Button onPress={this.goToCouncil}title="See My Council"/>
         {this.videosArr}
       </View>
     )
