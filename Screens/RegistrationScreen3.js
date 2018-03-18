@@ -169,7 +169,8 @@ export default class RegistrationScreen3 extends Component<{}>{
         </View>
         </View>
 
-        <View style={styles.space2}></View>
+        <View style={styles.space}></View>
+        <View style={styles.space}></View>
         <View style={styles.container}>
         <View style={styles.buttonz}>
           <TouchableOpacity onPress={this.submit}>
