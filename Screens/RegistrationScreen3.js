@@ -43,34 +43,133 @@ export default class RegistrationScreen3 extends Component<{}>{
       <Text>Please select some of the issues that mean the most to you.</Text>
       <Text>(Choose as many as you would like)</Text>
       </View>
-        <Button title="Education" onPress={() => this.handleSelection("Education")}/>
         <View style={styles.space}></View>
-        <Button title="Healthcare" onPress={() => this.handleSelection("Healthcare")}/>
-        <View style={styles.space}></View>
-        <Button title="LGBTQIA+" onPress={() => this.handleSelection("LGBTQIA+")}/>
-        <View style={styles.space}></View>
-        <Button title="Housing" onPress={() => this.handleSelection("Housing")}/>
-        <View style={styles.space}></View>
-        <Button title="Lifestyle" onPress={() => this.handleSelection("Lifestyle")}/>
-        <View style={styles.space}></View>
-        <Button title="UNC" onPress={() => this.handleSelection("UNC")}/>
-        <View style={styles.space}></View>
-        <Button title="Democratic Party" onPress={() => this.handleSelection("Democratic Party")}/>
-        <View style={styles.space}></View>
-        <Button title="Republican Party" onPress={() => this.handleSelection("Republican Party")}/>
-        <View style={styles.space}></View>
-        <Button title="Food" onPress={() => this.handleSelection("Food")}/>
-        <View style={styles.space}></View>
-        <Button title="Social Justice" onPress={() => this.handleSelection("Social Justice")}/>
-        <View style={styles.space}></View>
-        <Button title="Security" onPress={() => this.handleSelection("Security")}/>
-        <View style={styles.space}></View>
-        <Button title="Women's Rights" onPress={() => this.handleSelection("Women's Rights")}/>
-        <View style={styles.space}></View>
-        <Button title="Environment" onPress={() => this.handleSelection("Environment")}/>
-        <View style={styles.space}></View>
-        <Button title="Economy" onPress={() => this.handleSelection("Economy")}/>
-        <View style={styles.space}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Education")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Education</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Healthcare")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Healthcare</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("LGBTQIA+")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>LGBTQIA+</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Housing")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Housing</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Lifestyle")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Lifestyle</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("UNC")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>UNC</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Democratic Party")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Democratic Party</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Republican Party")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Republican Party</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Food")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Food</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Social Justice")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Social Justice</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Security")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Security</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Women's Rights")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Rights for Women</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Environment")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Environment</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.bspace}></View>
+        <View style={styles.container}>
+        <View style={styles.buttonz2}>
+          <TouchableOpacity onPress={() => this.handleSelection("Economy")}>
+            <Text style={{fontSize: 13, textAlign: 'center'}}>Economy</Text>
+          </TouchableOpacity>
+        </View>
+        </View>
+
+        <View style={styles.space2}></View>
         <View style={styles.container}>
         <View style={styles.buttonz}>
           <TouchableOpacity onPress={this.submit}>
@@ -109,6 +208,9 @@ var styles = StyleSheet.create({
   space: {
     height: 2,
   },
+  bspace: {
+    height: 0,
+  },
   space2: {
     height: 20,
   },
@@ -122,6 +224,16 @@ var styles = StyleSheet.create({
     width: 320,
     marginBottom: 30,
     backgroundColor: '#49C7E3',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonz2: {
+    height: 29,
+    borderRadius: 4,
+    width: 320,
+    marginTop: 3,
+    marginBottom: 3,
+    backgroundColor: '#c9c9c9',
     alignItems: 'center',
     justifyContent: 'center',
   }
